@@ -1,0 +1,73 @@
+
+p {
+    color: white;
+    background-color: gray;
+}
+
+h1 {
+    color: black;
+    background-color: darkmagenta;
+}
+
+body {
+    /*
+        background-image: url("monix gif.gif");
+    */
+    background-color: purple;
+}
+
+.Link {
+    color: deeppink;
+}
+
+    .Link:hover {
+        color:purple;
+    }
+
+
+.button {
+    background-color: #4400ff;
+    color: #daccff;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 2px solid purple;
+    transition-duration: 0.4s;
+    background-image: url("ButtonBlueV2.jpg");
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+    .button:hover {
+        background-color: #7c4dff;
+        color: white;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 4px;
+        border: 2px solid purple;
+        background-image: url("ButtonBlueV2RedMoon.jpg");
+        
+    }
+
+    .button:active {
+        background-color: #14004d;
+        color: black;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 4px;
+        border: 2px solid #0e0043;
+        transition-duration: 0.1s;
+        background-image: url("ButtonBlueV2YellowMoon.jpg");
+    }
+
+.Hoverable:hover {
+    background-color: aquamarine;
+}
